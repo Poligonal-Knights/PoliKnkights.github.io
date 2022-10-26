@@ -7778,6 +7778,11 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: #fa9693 !important;
 }
+.text-muted3 {
+  --bs-text-opacity: 1;
+  font-weight: bold;
+  color: #6c757d !important;
+}
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
@@ -11371,9 +11376,11 @@ p {
   color: #fff;
   letter-spacing: 0.0625em;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #38b8d1;
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -11415,7 +11422,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/header-bgAnim.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11480,7 +11487,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(126, 125, 201, 0.9);
+  background: rgba(118,66,138, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11524,11 +11531,12 @@ header.masthead .masthead-heading {
   background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
+
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
